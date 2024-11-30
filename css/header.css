@@ -1,0 +1,48 @@
+.logo {
+    height: 55px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style: none;
+    gap: 30px;
+    display: flex;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: lightcoral;
+}
+
+.sous-menu {
+    background-color: lightcoral;
+    list-style: none;
+    display: none;
+    padding-top: 10px;
+    padding-left: 0;
+    position: absolute;
+}
+
+.sous-menu li {
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.sous-menu li a{
+    color: white;
+}
+
+.sous-menu li a:hover {
+    color: black;
+}
+
+
+

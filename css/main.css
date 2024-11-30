@@ -1,0 +1,118 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container .first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image img {
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 9px;
+}
+
+.first .text h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+span {
+    color:  lightcoral;
+}
+
+.btn {
+    padding: 16px 24px;
+    color: lightcoral;
+    border: 2px solid lightcoral;
+    background: transparent;
+    border-radius: 8px;
+}
+
+.btn1 {
+    padding: 18px 24px;
+    border-radius: 8px;
+    background-color:lightcoral ;
+    border: 1px solid white;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.change {
+    margin-left: 200px;
+}
+
+.change button {
+    background: transparent;
+    border: 1px solid lightcoral  ;
+}
+
+.change i {
+    color: lightcoral ;
+}
+
+.text-two {
+    margin-top: 10px;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.two {
+    height: 100vh;
+    margin-top: 50px;
+    background-color: rgb(235, 230, 225);
+}
+
+.text-two h1 {
+    font-size: 40px;
+}
+
+.text-two p {
+    padding-top: 0;
+}
+
+.ensemble .card {
+    width: 200px;
+    height: 325px;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    transition: 1s ;
+}
+
+.card p {
+    text-align: center;
+    font-weight: 600;
+}
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.card button{
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 80px;
+    color: red;
+}
+
+.ensemble {
+    display: flex;
+    justify-content: space-between;
+}
+

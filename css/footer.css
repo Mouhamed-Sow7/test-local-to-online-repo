@@ -1,0 +1,39 @@
+.img-footer img {
+    height: 55px;
+}
+
+.menu-footer ul {
+    list-style: none;
+}
+
+.menu-footer p {
+    color: lightcoral ;
+    text-align: center;
+}
+
+.menu-footer li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-footer li a:hover {
+    color:lightcoral ;
+}
+
+.menu-footer {
+    display: flex;
+}
+
+.footer .container {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-reseau i {
+    padding: 20px;
+}
+
+.footer-reseau i:hover {
+    color: lightcoral;
+}
